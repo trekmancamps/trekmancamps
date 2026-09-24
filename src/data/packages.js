@@ -1,4 +1,4 @@
-import { IMAGES } from './images'
+import { IMAGES, OWN } from './images'
 
 export const PACKAGES = [
   {
@@ -70,7 +70,7 @@ export const PACKAGES = [
     grade: 'Family friendly',
     price: 3900,
     season: 'All year',
-    image: IMAGES.tirthan,
+    image: OWN.ghnp,
     span: 'md:col-span-2 md:row-span-1',
   },
 ]
@@ -80,8 +80,8 @@ export const HAMPTA_ITINERARY = [
     day: 'Day one',
     place: 'Manali to Jobra to Chika',
     altitude: '3,100 m',
-    text: 'A short drive up the Prini hairpins, then an easy three kilometre walk through maple and pine to the Chika meadow. Horses graze by the Rani nala. First camp, first stars.',
-    image: IMAGES.chika,
+    text: 'A short drive up the Prini hairpins to the Jobra road head, then an easy three kilometre walk through maple and pine to the Chika meadow. Horses graze by the Rani nala. First camp, first stars.',
+    image: OWN.jobraRoad,
   },
   {
     day: 'Day two',
@@ -121,8 +121,8 @@ export const VALLEYS = [
   },
   {
     name: 'Tirthan',
-    text: 'Quiet trout water, wooden homestays and the front door of the Great Himalayan National Park.',
-    image: IMAGES.tirthan,
+    text: 'Slate-roofed villages, quiet trout water and the front door of the Great Himalayan National Park.',
+    image: OWN.villages,
   },
   {
     name: 'Solang',

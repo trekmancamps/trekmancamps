@@ -1,5 +1,20 @@
-// Every photo is an open-licence image from Wikimedia Commons (CC0, CC BY or CC BY-SA).
+// Photos under OWN are Trekman Camps' own photographs, bundled from src/assets.
+// Every other photo is an open-licence image from Wikimedia Commons (CC0, CC BY or CC BY-SA).
 // Attribution for each file is listed in the footer and in CREDITS.md.
+
+import ghnp from '../assets/ghnp.jpg'
+import jobraRoad from '../assets/jobra-road.jpg'
+import panduRopa from '../assets/pandu-ropa.jpg'
+import reylunaagDeora from '../assets/reylunaag-deora.jpg'
+import villages from '../assets/villages.jpg'
+
+export const OWN = {
+  ghnp: { src: ghnp, alt: 'Deodar forest and terraced fields inside the Great Himalayan National Park', credit: 'Trekman Camps' },
+  jobraRoad: { src: jobraRoad, alt: 'Jeep on the Jobra road below cloud-covered cliffs at the start of the Hampta trek', credit: 'Trekman Camps' },
+  panduRopa: { src: panduRopa, alt: 'Pandu Ropa meadow ringed by pine, with camp tents at the edge', credit: 'Trekman Camps' },
+  reylunaagDeora: { src: reylunaagDeora, alt: 'Slate-roofed Reylunaag Deora temple beside a lily pond in deodar forest', credit: 'Trekman Camps' },
+  villages: { src: villages, alt: 'Slate roofs of a Kullu village with forested ridges and cloud behind', credit: 'Trekman Camps' },
+}
 
 const commons = (file, width = 1600) =>
   `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=${width}`

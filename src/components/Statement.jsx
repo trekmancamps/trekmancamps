@@ -1,7 +1,7 @@
 import { useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { IMAGES } from '../data/images'
+import { IMAGES, OWN } from '../data/images'
 
 function Pill({ img, wide }) {
   return (
@@ -49,7 +49,7 @@ export default function Statement() {
           </span>
           <span className="st-line block">
             through cedar forest along the
-            <Pill img={IMAGES.tirthan} />
+            <Pill img={OWN.villages} />
             Tirthan and Parvati rivers,
           </span>
           <span className="st-line block">

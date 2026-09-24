@@ -1,13 +1,14 @@
 import { useRef } from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
-import { IMAGES } from '../data/images'
+import { IMAGES, OWN } from '../data/images'
 
 const SHOTS = [
   { img: IMAGES.chandratalCamp, caption: 'Chandratal base camp, 4,300 m. Twenty dome tents, one dining tent, a lot of sky.', offset: 'md:mr-auto md:w-[58%]' },
-  { img: IMAGES.kheerganga, caption: 'Kheerganga meadow. Hot spring at the top, dinner around the fire below.', offset: 'md:ml-auto md:w-[52%]' },
+  { img: OWN.panduRopa, caption: 'Pandu Ropa meadow. Our own camp under the pines, a stream at the edge and nobody else for miles.', offset: 'md:ml-auto md:w-[52%]' },
   { img: IMAGES.hamptaCamp, caption: 'Shea Goru, the morning after the pass. Glacier on the left, breakfast on the right.', offset: 'md:mx-auto md:w-[70%]' },
-  { img: IMAGES.chika, caption: 'Chika. Where day one ends and the horses decide the seating plan.', offset: 'md:mr-auto md:w-[48%]' },
+  { img: OWN.reylunaagDeora, caption: 'Reylunaag Deora. A temple, a lily pond and a rest-day walk from the Tirthan camp.', offset: 'md:mr-auto md:w-[48%]' },
+  { img: IMAGES.chika, caption: 'Chika. Where day one ends and the horses decide the seating plan.', offset: 'md:ml-auto md:w-[58%]' },
 ]
 
 export default function Gallery() {

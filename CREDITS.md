@@ -1,6 +1,12 @@
 # Photo credits
 
-All photographs are open-licence images served from Wikimedia Commons. Click any file name to view the full licence and author page.
+## Trekman Camps' own photographs
+
+Bundled from `src/assets/`: `ghnp.jpg`, `jobra-road.jpg`, `pandu-ropa.jpg`, `reylunaag-deora.jpg`, `villages.jpg`. Copyright Trekman Camps.
+
+## Wikimedia Commons
+
+The remaining photographs are open-licence images served from Wikimedia Commons. Click any file name to view the full licence and author page.
 
 | File on Commons | Licence |
 | --- | --- |
